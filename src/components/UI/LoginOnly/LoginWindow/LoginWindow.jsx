@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import cl from './LoginWindow.module.css'
 import { useTranslation } from 'react-i18next'
 import { useEffect, useState } from 'react/cjs/react.development'
@@ -16,7 +16,6 @@ const LoginWindow = (props) => {
   const headers = {
     'Content-Type': 'application/json',
   }
-  const navigate = useNavigate()
 
   const [email, setEmail] = useState('')
   const [pass, setPass] = useState('')
@@ -95,8 +94,7 @@ const LoginWindow = (props) => {
           localStorage.setItem('lastVisited', JSON.stringify('/report'))
           localStorage.setItem('isAuth', JSON.stringify(true))
           localStorage.setItem('isTravel', JSON.stringify(false))
-          //props.setIsAuth(true)
-          //navigate('../report')
+
           window.location.reload()
           setEmail('')
           setPass('')
