@@ -1,1 +1,1 @@
-# [Resume](https://budgettracker-olivertears.vercel.app/)
+# [Budget Tracker](https://budgettracker-olivertears.vercel.app/)
