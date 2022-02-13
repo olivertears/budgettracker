@@ -1,0 +1,33 @@
+div.wrap {
+  margin-top: 15px;
+  margin-left: 20px;
+  width: 360px;
+  height: 90px;
+  background: #54626d;
+  display: flex;
+  border-radius: 5px;
+}
+
+div.wrap:last-child {
+  margin-bottom: 15px;
+}
+
+div.avatar {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+  background-size: 100% 100%;
+}
+
+div.wrapForTextData {
+  padding-top: 10px;
+}
+
+h1.nick {
+  width: 270px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre;
+}

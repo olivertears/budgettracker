@@ -1,0 +1,57 @@
+button.myButton {
+  margin-top: 0px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  background: #a70000;
+  text-align: center;
+  outline: 3px solid black;
+  float: right;
+}
+
+.left {
+  position: absolute;
+  margin-top: 3px;
+  width: 5px;
+  height: 32px;
+  border-radius: 5px;
+  background: #f0f8ff;
+  transform: rotate(-45deg);
+}
+
+.right {
+  position: absolute;
+  margin-top: 3px;
+  width: 5px;
+  height: 32px;
+  border-radius: 5px;
+  background: #f0f8ff;
+  transform: rotate(-135deg);
+}
+
+button.myButton:hover {
+  cursor: pointer;
+  opacity: 95%;
+}
+
+button.myButtonTravel {
+  margin-top: 0px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  background: #a70000;
+  text-align: center;
+  outline: 3px solid black;
+  float: right;
+}
+
+button.myButtonTravel:hover {
+  cursor: not-allowed;
+  opacity: 95%;
+}

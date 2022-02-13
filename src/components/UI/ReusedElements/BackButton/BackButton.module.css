@@ -1,0 +1,11 @@
+div.buttonBack {
+  width: 40px;
+  height: 20px;
+  background-size: 100% 100%;
+  background-image: url('./BackButton.png');
+}
+
+div.buttonBack:hover {
+  opacity: 95%;
+  cursor: pointer;
+}

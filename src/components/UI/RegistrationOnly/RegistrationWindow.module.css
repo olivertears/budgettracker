@@ -1,0 +1,101 @@
+div.wrapForLogin {
+  position: absolute;
+  width: 360px;
+  height: 322px;
+  left: 20px;
+  top: 159px;
+  background: #54626d;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+input.inputForRegistration {
+  width: 315px;
+  height: 30px;
+  border-radius: 10px;
+  background: #e5e5e5;
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #54626d;
+  margin-left: 20px;
+  margin-top: 15px;
+  padding-left: 5px;
+}
+
+input.inputForRegistrationDark {
+  width: 315px;
+  height: 30px;
+  border-radius: 10px;
+  background: #333;
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: white;
+  margin-left: 20px;
+  margin-top: 15px;
+  padding-left: 5px;
+}
+
+h1.loginTxt {
+  margin-top: 15px;
+  color: #f0f8ff;
+}
+
+button.registrationBtn {
+  width: 200px;
+  height: 50px;
+  background: #e5e5e5;
+  border-radius: 10px;
+  margin-left: 80px;
+}
+
+button.registrationBtn:hover {
+  outline: 3px solid black;
+  opacity: 95%;
+  cursor: pointer;
+}
+
+h1.insideLoginBtn {
+  color: black;
+}
+
+div.linkToRegistration {
+  display: flex;
+  justify-content: center;
+}
+
+h4.simpleTxt {
+  color: #f0f8ff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h4.linkToRegistration {
+  color: #6ad7ef;
+  text-decoration: underline;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div.wrapForPassInput {
+  width: 340px;
+  height: 45px;
+  display: flex;
+}
+
+div.showPassOrNot {
+  margin-top: 15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 0 10px 10px 0;
+  background-size: 100% 100%;
+  position: absolute;
+  float: right;
+  right: 25px;
+}
+
+div.showPassOrNot:hover {
+  opacity: 95%;
+  cursor: pointer;
+}

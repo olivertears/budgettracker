@@ -1,0 +1,36 @@
+div.wrapForCustomCheckbox {
+  width: 33px;
+  height: 33px;
+}
+
+label {
+  font-size: 1px;
+}
+
+input.customCheckbox {
+  width: 33px;
+  height: 33px;
+  margin: 0;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+}
+
+.customCheckbox:hover + label {
+  cursor: pointer;
+}
+
+.customCheckbox + label::before {
+  content: '';
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  background: #54626d;
+  border-radius: 5px;
+  background-size: 100% 100%;
+}
+
+.customCheckbox:checked + label::before {
+  outline: 2px solid black;
+  background-image: url('./checkImg.png');
+}

@@ -1,0 +1,33 @@
+div.wrap {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+input.left {
+  border-radius: 10px 0 0 10px;
+  background: #e5e5e5;
+  height: 30px;
+  width: 125px;
+}
+
+input.right {
+  border-radius: 0 10px 10px 0;
+  background: #e5e5e5;
+  height: 30px;
+  width: 125px;
+}
+
+h2.betweenInput {
+  margin: 0;
+  margin-top: 3px;
+}
+
+input:hover {
+  cursor: pointer;
+  opacity: 95%;
+}
+
+input {
+  outline: none;
+}

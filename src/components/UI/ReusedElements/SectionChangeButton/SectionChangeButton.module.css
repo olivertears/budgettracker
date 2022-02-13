@@ -1,0 +1,22 @@
+div.sectionChangeButtonWrap {
+  width: 400px;
+  height: 30px;
+  background: #c4c4c4;
+  display: flex;
+}
+
+div.section {
+  width: 200px;
+  height: 26px;
+  text-align: center;
+  border: 2px solid #54626d;
+}
+
+div.section:hover {
+  cursor: pointer;
+  opacity: 95%;
+}
+
+h1.changeSection {
+  color: black;
+}

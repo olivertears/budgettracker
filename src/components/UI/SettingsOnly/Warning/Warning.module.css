@@ -1,0 +1,65 @@
+div.full {
+  position: fixed;
+  width: 400px;
+  height: 640px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+div.wrap {
+  position: fixed;
+  margin-top: 220px;
+  width: 300px;
+  height: 200px;
+  background: #c4c4c4;
+  border-radius: 10px;
+  outline: 3px solid black;
+  margin-left: 50px;
+}
+
+div.header {
+  width: 300px;
+  height: 50px;
+  background: #54626d;
+  border-radius: 10px 10px 0 0;
+  outline: 3px solid black;
+}
+
+h1.headerTxt {
+  padding-top: 13px;
+  text-align: center;
+}
+
+div.closeButton {
+  width: 40px;
+  height: 40px;
+  margin-top: -33px;
+  margin-right: 80px;
+  float: right;
+}
+
+div.content {
+  padding: 20px;
+  height: 110px;
+  width: 260px;
+  background: #c4c4c4;
+  border-radius: 0 0 10px 10px;
+}
+
+h3.mistakeBody {
+  height: 50px;
+  text-align: center;
+}
+
+button.okbutton {
+  width: 150px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 55px;
+}
+
+button.okbutton:hover {
+  opacity: 95%;
+  cursor: pointer;
+  outline: 3px solid black;
+}

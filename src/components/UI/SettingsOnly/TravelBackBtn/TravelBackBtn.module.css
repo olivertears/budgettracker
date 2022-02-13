@@ -1,0 +1,20 @@
+.backFromTravel {
+  position: fixed;
+  margin-top: 570px;
+  background: #54626d;
+  width: 400px;
+  height: 70px;
+}
+
+.backFromTravel:hover {
+  cursor: pointer;
+  opacity: 90%;
+}
+
+h6.backTxt {
+  margin-top: 0px;
+  font-size: 60px;
+  font-weight: 900;
+  color: beige;
+  text-align: center;
+}

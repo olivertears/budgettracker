@@ -1,0 +1,123 @@
+div.content {
+  margin-top: 15px;
+  margin-left: 20px;
+  background: #e5e5e5;
+  width: 360px;
+  height: 150px;
+  border-radius: 10px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+div.header {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+div.body {
+  display: flex;
+  position: relative;
+}
+
+div.price {
+  text-align: right;
+  position: absolute;
+  margin-top: 0;
+  right: 10px;
+  float: right;
+}
+
+div.logo {
+  background: #c4c4c4;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 0;
+  margin-left: 15px;
+  margin-top: 10px;
+  background-size: 100% 100%;
+}
+
+div.item {
+  display: flex;
+}
+
+h2.date {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+h2.category {
+  width: 160px;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre;
+}
+
+h2.price {
+  width: 120px;
+  margin-top: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre;
+}
+
+h1.fullPrice {
+  color: black;
+  margin-top: 10px;
+}
+
+hr {
+  width: 340px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 1px solid;
+}
+
+div.lastBlock {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+}
+
+button.change {
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  background: #54626d;
+  border: none;
+  margin: 10px;
+}
+
+button.change:hover {
+  outline: 2px solid black;
+  cursor: pointer;
+  opacity: 95%;
+}
+
+button.changeTravel {
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+  background: #54626d;
+  border: none;
+  margin: 10px;
+}
+
+button.changeTravel:hover {
+  outline: 2px solid black;
+  cursor: not-allowed;
+  opacity: 95%;
+}
+
+div.delete {
+  background: black;
+  margin: 10px;
+  margin-left: 40px;
+  width: 0;
+  border-radius: 10px;
+}

@@ -1,0 +1,43 @@
+.wrap {
+  position: fixed;
+  margin-top: 570px;
+  background: #54626d;
+  width: 400px;
+  height: 70px;
+}
+
+.content {
+  display: flex;
+}
+
+div.oneItem {
+  width: 60px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+div.oneItem:first-child {
+  margin-left: 20px;
+}
+
+img {
+  width: 50px;
+  margin: 5px 5px 0 5px;
+  border-radius: 50%;
+}
+
+img:hover {
+  opacity: 95%;
+  cursor: pointer;
+  outline: 2px solid black;
+}
+
+img.add {
+  width: 60px;
+  margin: 5px 0 0 15px;
+}
+
+h5 {
+  margin-top: -3px;
+  color: #f0f8ff;
+}

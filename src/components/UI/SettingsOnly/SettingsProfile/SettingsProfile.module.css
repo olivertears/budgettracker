@@ -1,0 +1,125 @@
+div.profOn {
+  width: 400px;
+  height: 410px;
+}
+
+div.profLines {
+  display: flex;
+  height: 40px;
+}
+
+h1.title {
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+}
+
+h1.nickname {
+  width: 260px;
+  color: black;
+  margin: 0;
+  margin-top: 5px;
+  margin-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre;
+}
+
+h1.email {
+  width: 290px;
+  color: black;
+  margin: 0;
+  margin-top: 5px;
+  margin-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre;
+}
+
+h2.profLines {
+  margin: 0;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+h2.profChangeLines {
+  margin: 0;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+div.divforinputonly {
+  height: 40px;
+  width: 347px;
+  display: inline-block;
+  position: static;
+}
+
+input.prof {
+  margin-top: 10px;
+  width: 200px;
+  height: 30px;
+  float: right;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-top: 3px;
+  margin-right: 10px;
+  background: #54626d;
+  color: #e5e5e5;
+}
+
+input.oldpass {
+  margin-top: 10px;
+  width: 200px;
+  height: 30px;
+  float: right;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-top: 3px;
+  margin-right: 63px;
+  background: #54626d;
+  color: #e5e5e5;
+}
+
+input.prof::placeholder {
+  color: #e5e5e5;
+}
+
+input.oldpass::placeholder {
+  color: #e5e5e5;
+}
+
+div.customCheckbox {
+  margin-top: 10px;
+  width: 33px;
+  height: 33px;
+  margin-right: 20px;
+  float: right;
+}
+
+div.profLastLine {
+  display: flex;
+  justify-content: center;
+}
+
+div.leaveBtn {
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background: #54626d;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+div.leaveBtn:hover {
+  outline: 2px solid black;
+  cursor: pointer;
+  opacity: 95%;
+}
+
+h1.leaveBtn {
+  margin: 0;
+  margin-top: 13px;
+}

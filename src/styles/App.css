@@ -1,0 +1,134 @@
+body {
+  font-family: 'Roboto';
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+.App {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background: #c4c4c4;
+  width: 400px;
+  height: 570px;
+}
+
+.Login {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 400px;
+  height: 640px;
+}
+
+.Operations {
+  height: 420px;
+  max-height: 420px;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #f0f8ff;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+input.inputForRegistration {
+  width: 310px;
+  height: 30px;
+  border-radius: 10px;
+  background: #e5e5e5;
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #54626d;
+  margin-left: 20px;
+  margin-top: 15px;
+  padding: 0 5px;
+}
+
+input.inputForRegistrationDark {
+  width: 310px;
+  height: 30px;
+  border-radius: 10px;
+  background: #333;
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: whitesmoke;
+  margin-left: 20px;
+  margin-top: 15px;
+  padding: 0 5px;
+}
+
+input.inputForRegistrationMistake {
+  width: 310px;
+  height: 30px;
+  border-radius: 10px;
+  background: #ff6347;
+  font-size: 20px;
+  font-family: 'Roboto';
+  color: #54626d;
+  margin-left: 20px;
+  margin-top: 15px;
+  padding: 0 5px;
+  outline: 3px solid #8b0000;
+}
+
+input.inputForRegistrationMistake::placeholder {
+  color: #8b0000;
+}
+
+.Loader {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.Loader .insideLoader {
+  position: absolute;
+  border: 4px solid #fff;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.Loader .insideLoader:nth-child(2) {
+  animation-delay: -0.5s;
+}
+@keyframes lds-ripple {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    opacity: 0;
+  }
+}

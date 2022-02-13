@@ -1,0 +1,48 @@
+div.setWrap {
+  width: 400px;
+  height: 570px;
+  background: #c4c4c4;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+div.set {
+  width: 400px;
+  height: 50px;
+  background: #c4c4c4;
+  box-shadow: 0 -1px 0px #54626d inset;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+div.setDark {
+  width: 400px;
+  height: 50px;
+  background: #333;
+  box-shadow: 0 -1px 0px #e5e5e5 inset;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+div.set:target {
+  background: black;
+}
+
+div.set:hover {
+  cursor: pointer;
+  opacity: 95%;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+div.setDark:hover {
+  cursor: pointer;
+  opacity: 95%;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+h1.set {
+  padding-top: 20px;
+  padding-left: 15px;
+}

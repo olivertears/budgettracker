@@ -1,0 +1,75 @@
+div.curOn {
+  width: 400px;
+  height: auto;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-top: 15px;
+  margin-left: 20px;
+  padding: 3px 5px 0 5px;
+  width: 350px;
+  height: 27px;
+  background: #54626d;
+  font-size: 20px;
+  color: white;
+}
+
+.input::placeholder {
+  color: white;
+  opacity: 80%;
+}
+
+div.selectWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.select {
+  margin-top: 15px;
+  margin-left: 20px;
+  width: 350px;
+  height: 27px;
+  background: #54626d;
+  border-radius: 5px;
+  padding: 3px 5px 0 5px;
+  font-size: 20px;
+}
+
+.selectWrap h2 {
+  color: white;
+  margin: 0;
+}
+
+.select:hover {
+  cursor: pointer;
+  outline: 2px solid black;
+}
+
+.arrow {
+  margin-top: -24px;
+  float: right;
+}
+
+.option {
+  width: 356px;
+  height: 27px;
+  background: #54626d;
+  border: 2px solid black;
+  border-bottom: none;
+  margin-left: 20px;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 3px;
+}
+
+.option:last-child {
+  border-bottom: 2px solid black;
+}
+
+.option:hover {
+  opacity: 90%;
+  cursor: pointer;
+}

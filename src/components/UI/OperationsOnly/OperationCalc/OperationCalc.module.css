@@ -1,0 +1,71 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  background: #54626d;
+  width: 400px;
+  height: 150px;
+  position: relative;
+}
+
+.calc {
+  display: flex;
+}
+
+div.txt {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+h1.txt {
+  margin: 0;
+  margin-bottom: 5px;
+  color: #f0f8ff;
+}
+
+div.numb {
+  margin-top: 15px;
+  margin-left: 20px;
+  text-align: right;
+  position: absolute;
+  right: 20px;
+  float: right;
+}
+
+h1.numbInc {
+  margin: 0;
+  margin-bottom: 5px;
+  color: #90ee90;
+}
+
+h1.numbExp {
+  margin: 0;
+  margin-bottom: 5px;
+  color: #fa8072;
+  border-bottom: 1px solid #f0f8ff;
+}
+
+h1.numbRes {
+  margin: 0;
+  margin-bottom: 5px;
+  color: #f0f8ff;
+}
+
+div.date {
+  width: 265px;
+  height: 30px;
+  background: #e5e5e5;
+  border-radius: 10px;
+  margin-left: 75px;
+  margin-top: 35px;
+  display: block;
+  text-align: center;
+}
+
+div.date:hover {
+  opacity: 95%;
+  outline: 2px solid black;
+}
+
+h2.date {
+  margin-top: 3px;
+}

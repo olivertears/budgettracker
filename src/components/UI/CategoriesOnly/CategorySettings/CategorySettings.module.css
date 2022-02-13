@@ -1,0 +1,147 @@
+div.categorySettings {
+  position: fixed;
+  width: 400px;
+  height: 460px;
+  background: #c4c4c4;
+  z-index: 1;
+}
+
+div.cattName {
+  text-align: center;
+  width: 400px;
+  height: 70px;
+}
+
+h1.nameOfCatSet {
+  margin-top: 15px;
+  color: black;
+}
+
+div.wrapForBackBtn {
+  margin-top: -24px;
+  margin-right: 25px;
+  width: 40px;
+  height: 20px;
+  float: right;
+}
+
+input.inputForCatName {
+  margin-top: 10px;
+  background: #54626d;
+  width: 340px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #f0f8ff;
+  padding-left: 10px;
+}
+
+input.inputForCatName::placeholder {
+  color: #ff6347;
+}
+
+div.cattColor {
+  text-align: center;
+  width: 400px;
+  height: 170px;
+}
+
+div.wrapForColors {
+  margin-top: 10px;
+  margin-left: 25px;
+  border-radius: 10px;
+  background: #54626d;
+  width: 350px;
+  height: 140px;
+  padding-top: 0px;
+}
+
+div.lines {
+  display: flex;
+}
+
+div.color {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: 100% 100%;
+}
+
+div.color:hover {
+  opacity: 95%;
+  cursor: pointer;
+  outline: 2px solid black;
+}
+
+div.cattLogo {
+  text-align: center;
+  width: 400px;
+  height: 190px;
+}
+
+div.wrapForBackLog {
+  margin-top: 10px;
+  margin-left: 25px;
+  border-radius: 10px;
+  background: #54626d;
+  width: 350px;
+  height: 140px;
+  padding-top: 0px;
+  display: flex;
+}
+
+div.leftArrow {
+  width: 40px;
+  height: auto;
+  margin-top: 52px;
+}
+
+div.rightArrow {
+  transform: rotate(180deg);
+  width: 40px;
+  height: auto;
+  margin-bottom: 52px;
+}
+
+div.arr1 {
+  width: 5px;
+  height: 20px;
+  border-radius: 5px;
+  background: #f0f8ff;
+  transform: rotate(45deg);
+  margin-left: 15px;
+}
+
+div.arr1:hover {
+  opacity: 95%;
+  cursor: pointer;
+}
+
+div.arr2 {
+  margin-top: -9px;
+  width: 5px;
+  height: 20px;
+  border-radius: 5px;
+  background: #f0f8ff;
+  transform: rotate(-45deg);
+  margin-left: 15px;
+}
+
+div.arr2:hover {
+  opacity: 95%;
+  cursor: pointer;
+}
+
+div.wrapForLogos {
+  width: 280px;
+  height: 140px;
+}
+
+div.color9 {
+  background-image: url('https://cdn140.picsart.com/294872806131211.png'),
+    url('https://www.publicdomainpictures.net/pictures/310000/velka/pink-circle.png');
+}
