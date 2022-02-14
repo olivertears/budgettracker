@@ -1,8 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import cl from './CategoryItem.module.css'
 import open from './EyeImg/Open.png'
 import close from './EyeImg/Close.png'
-import { useEffect, useState } from 'react/cjs/react.development'
 
 const CategoryItem = (props) => {
   useEffect(() => {

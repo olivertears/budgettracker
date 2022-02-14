@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import cl from './Navbar.module.css'
 import imgOperations from './img/operations.png'
 import imgReport from './img/report.png'

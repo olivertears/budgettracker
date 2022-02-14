@@ -1,5 +1,4 @@
-import React from 'react'
-import { useEffect, useState } from 'react/cjs/react.development'
+import React, { useEffect, useState } from 'react'
 import SettingsAllUsers from '../SettingsAllUsers/SettingsAllUsers'
 import SettingsCurrency from '../SettingsCurrency/SettingsCurrency'
 import SettingsLanguage from '../SettingsLanguage/SettingsLanguage'

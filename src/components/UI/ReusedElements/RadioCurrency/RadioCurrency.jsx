@@ -1,5 +1,4 @@
-import React from 'react'
-import { useEffect } from 'react/cjs/react.development'
+import React, { useEffect } from 'react'
 import cl from './RadioCurrency.module.css'
 import axios from 'axios'
 

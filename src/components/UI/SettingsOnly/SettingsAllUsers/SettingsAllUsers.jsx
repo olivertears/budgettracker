@@ -1,5 +1,4 @@
-import React, { useMemo } from 'react'
-import { useEffect, useState } from 'react/cjs/react.development'
+import React, { useMemo, useEffect, useState } from 'react'
 import OneAdmin from '../OneAdmin/OneAdmin'
 import OneUser from '../OneUser/OneUser'
 import cl from './SettingsAllUsers.module.css'

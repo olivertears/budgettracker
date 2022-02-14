@@ -1,8 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import cl from './CategorySettings.module.css'
 import RadioColor from '../../ReusedElements/RadioColor/RadioColor'
 import RadioLogo from '../../ReusedElements/RadioLogo/RadioLogo'
-import CloseButton from '../../ReusedElements/CloseButton/CloseButton'
 import { useTranslation } from 'react-i18next'
 import BackButton from '../../ReusedElements/BackButton/BackButton'
 

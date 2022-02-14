@@ -1,7 +1,5 @@
-import React, { useState } from 'react'
-import { useEffect } from 'react/cjs/react.development'
+import React, { useEffect } from 'react'
 import CloseButton from '../../ReusedElements/CloseButton/CloseButton'
-import NewOperation from '../NewOperation/NewOperation'
 import cl from './AddOperation.module.css'
 import { useTranslation } from 'react-i18next'
 import axios from 'axios'

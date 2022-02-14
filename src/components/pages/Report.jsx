@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import AddOperation from '../UI/OperationsOnly/AddOperation/AddOperation'
 import ReportAnimation from '../UI/ReportOnly/ReportAnimation/ReportAnimation'
 import ReportList from '../UI/ReportOnly/ReportList/ReportList'

@@ -1,5 +1,4 @@
 import React from 'react'
-import { useEffect } from 'react/cjs/react.development'
 import CalendarInput from '../CalendarInput/CalendarInput'
 import cl from './OperationCalc.module.css'
 import { useTranslation } from 'react-i18next'

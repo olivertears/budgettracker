@@ -1,6 +1,5 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import { useState } from 'react/cjs/react.development'
 import CustomCheckbox from '../../ReusedElements/CustomCheckbox/CustomCheckbox'
 import cl from './SettingsProfile.module.css'
 import { useTranslation } from 'react-i18next'
@@ -8,7 +7,6 @@ import axios from 'axios'
 
 const SettingsProfile = (props) => {
   const { t } = useTranslation()
-  const navigate = useNavigate()
   const API = axios.create({
     baseURL: `https://budgettrackerjsonholder.herokuapp.com/`,
   })

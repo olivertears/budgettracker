@@ -1,5 +1,4 @@
 import React from 'react'
-import { useEffect } from 'react/cjs/react.development'
 import CategoriesList from '../UI/CategoriesOnly/CategoriesList/CategoriesList'
 import AddOperation from '../UI/OperationsOnly/AddOperation/AddOperation'
 import SectionChangeButton from '../UI/ReusedElements/SectionChangeButton/SectionChangeButton'

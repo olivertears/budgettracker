@@ -12,7 +12,6 @@ import Login from './components/pages/Login'
 import Registration from './components/pages/Registration'
 import Recovery from './components/pages/Recovery'
 import TravelBackBtn from './components/UI/SettingsOnly/TravelBackBtn/TravelBackBtn'
-import { use } from 'i18next'
 
 function App() {
   const [visible, setVisible] = useState(false)

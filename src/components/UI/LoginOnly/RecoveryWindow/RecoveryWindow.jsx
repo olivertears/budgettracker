@@ -1,11 +1,9 @@
-import React from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import React, { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import cl from './RecoveryWindow.module.css'
 import { useTranslation } from 'react-i18next'
-import { useEffect, useState } from 'react/cjs/react.development'
 import open from './EyeImg/Open.png'
 import close from './EyeImg/Close.png'
-import Warning from '../../SettingsOnly/Warning/Warning'
 import BackButton from '../../ReusedElements/BackButton/BackButton'
 import axios from 'axios'
 

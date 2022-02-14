@@ -1,5 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react'
-import AddOperation from '../../OperationsOnly/AddOperation/AddOperation'
+import React, { useState, useEffect } from 'react'
 import CreateChangeBtn from '../../ReusedElements/CreateChangeBtn/CreateChangeBtn'
 import CategorySettings from '../CategorySettings/CategorySettings'
 import NewCategory from '../NewCategory/NewCategory'
