@@ -90,7 +90,7 @@ const NewOperation = (props) => {
               color: props.mode === 'dark' ? 'white' : 'black',
             }}
           >
-            {category.name}
+            {/* {category.name} */}
           </h2>
           <div className={cl.price}>
             <h2 className={cl.price} style={{ color: x }}>
