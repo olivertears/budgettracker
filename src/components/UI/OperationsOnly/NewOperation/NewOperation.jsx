@@ -50,10 +50,9 @@ const NewOperation = (props) => {
     (cat) => cat.name === props.operation.categoryName
   )
 
-  /* if (category.section === 'Expense') {
+  if (category.section === 'Expense') {
     props.mode === 'dark' ? (x = '#fa8072') : (x = 'red')
-  } else props.mode === 'dark' ? (x = '#90ee90') : (x = 'green') */
-  props.mode === 'dark' ? (x = '#90ee90') : (x = 'green')
+  } else props.mode === 'dark' ? (x = '#90ee90') : (x = 'green')
 
   return (
     <div
@@ -80,9 +79,9 @@ const NewOperation = (props) => {
         <div className={cl.item}>
           <div
             className={cl.logo}
-            /* style={{
+            style={{
               backgroundImage: `url(${category.logo}), url(${category.color})`,
-            }} */
+            }}
           ></div>
           <h2
             className={cl.category}
@@ -90,7 +89,7 @@ const NewOperation = (props) => {
               color: props.mode === 'dark' ? 'white' : 'black',
             }}
           >
-            {/* {category.name} */}
+            {category.name}
           </h2>
           <div className={cl.price}>
             <h2 className={cl.price} style={{ color: x }}>

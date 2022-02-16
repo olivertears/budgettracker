@@ -15,10 +15,9 @@ const OperationCalc = (props) => {
     let category = props.allCategories.find(
       (cat) => cat.name === props.filteredOperations[i].categoryName
     )
-    /* if (category.section === 'Expense') {
+    if (category.section === 'Expense') {
       expense += Number(props.filteredOperations[i].amount)
-    } else income += Number(props.filteredOperations[i].amount) */
-    income += Number(props.filteredOperations[i].amount)
+    } else income += Number(props.filteredOperations[i].amount)
   }
 
   expense = expense.toFixed(2)
