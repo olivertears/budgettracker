@@ -80,9 +80,9 @@ const NewOperation = (props) => {
         <div className={cl.item}>
           <div
             className={cl.logo}
-            style={{
+            /* style={{
               backgroundImage: `url(${category.logo}), url(${category.color})`,
-            }}
+            }} */
           ></div>
           <h2
             className={cl.category}
