@@ -50,9 +50,10 @@ const NewOperation = (props) => {
     (cat) => cat.name === props.operation.categoryName
   )
 
-  if (category.section === 'Expense') {
+  /* if (category.section === 'Expense') {
     props.mode === 'dark' ? (x = '#fa8072') : (x = 'red')
-  } else props.mode === 'dark' ? (x = '#90ee90') : (x = 'green')
+  } else props.mode === 'dark' ? (x = '#90ee90') : (x = 'green') */
+  props.mode === 'dark' ? (x = '#90ee90') : (x = 'green')
 
   return (
     <div
